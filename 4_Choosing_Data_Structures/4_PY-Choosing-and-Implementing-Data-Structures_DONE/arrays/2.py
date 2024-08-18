@@ -12,14 +12,14 @@ def array_sum(numberArr):
 print(array_sum(b))
 
 # uncomment the below function to test the recursive approach
-# def array_sum_recursive(numberArr):
-#     if len(numberArr) == 1:
-#         return numberArr[0]
+def array_sum_recursive(numberArr):
+    if len(numberArr) == 1:
+        return numberArr[0]
     
-#     # Recursive case
-#     return numberArr[0] + array_sum(numberArr[1:])
+    # Recursive case
+    return numberArr[0] + array_sum(numberArr[1:])
 
-# print(array_sum_recursive(b))
+print(array_sum_recursive(b))
 
 
 # uncomment the below line to test the solution using the NumPy sum operator
